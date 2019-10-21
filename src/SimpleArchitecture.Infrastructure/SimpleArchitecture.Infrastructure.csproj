@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommonServiceLocator" Version="2.0.4" />
+    <PackageReference Include="NLog" Version="4.6.7" />
+    <PackageReference Include="Unity" Version="5.11.1" />
+    <PackageReference Include="Unity.ServiceLocation" Version="5.11.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleArchitecture.Abstractions\SimpleArchitecture.Abstractions.csproj" />
+    <ProjectReference Include="..\SimpleArchitecture.Repository\SimpleArchitecture.Repository.csproj" />
+    <ProjectReference Include="..\SimpleArchitecture.Service\SimpleArchitecture.Service.csproj" />
+  </ItemGroup>
+
+</Project>
